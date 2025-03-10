@@ -92,7 +92,16 @@
                 <a href="project.html" class="nav-item nav-link active">Projects</a>                
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="signin.html" class="btn txt-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Sign In</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                    <img src="img/investor-2.jpg" alt="Profile" class="rounded-circle" width="32" height="32">
+                </a>
+                <div class="dropdown-menu bg-light border-0 m-0">
+                    <a href="dashboard.html" class="dropdown-item">My Profile</a>
+                    <a href="dashboard.html" class="dropdown-item">Settings</a>
+                    <a href="signin.html" class="dropdown-item">Logout</a>
+                </div>
+            </div>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -854,11 +863,9 @@
     
                         <!-- Invest Button -->
                         <div class="text-center">
-                            <a href="signin.html">
-                                <button id="showSignUp" class="btn btn-primary btn-lg px-5 rounded-pill">
-                                    Invest Now
-                                </button>
-                            </a>
+                            <button id="showPaymentFormBtn" class="btn btn-primary btn-lg px-5 rounded-pill">
+                                Invest Now
+                            </button>
                         </div>
                     </div>
     
